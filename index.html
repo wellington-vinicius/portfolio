@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta name="description" content="Portfólio de Wellington Paiva, desenvolvedor web em formação especializado em HTML, CSS e JavaScript.">
+    <title>Wellington - Desenvolvedor Web</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Header com navegação -->
+    <header>
+        <nav class="navbar">
+            <div class="nav-brand">
+                <a href="#home">Wellington Paiva<span>.</span></a>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#home" class="active">Início</a></li>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#servicos">Serviços</a></li>
+                <li><a href="#projetos">Projetos</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Home Section -->
+    <section id="home" class="home">
+        <div class="home-content">
+            <p class="saudacao">Olá, Meu Nome É</p>
+            <h1 class="nome">WELLINGTON <span>PAIVA</span></h1>
+            <p class="descricao">
+                Desenvolvedor Web Júnior em formação, apaixonado por tecnologia e desenvolvimento web. Estou constantemente aprendendo novas ferramentas e tecnologias para evoluir como desenvolvedor Full Stack.
+            </p>
+            <div class="cta-buttons">
+                <a href="#projetos" class="btn primary">Meus Projetos</a>
+                <a href="#contato" class="btn secondary">Contato</a>
+            </div>
+        </div>
+        <div class="home-image">
+            <div class="foto-container">
+                <!-- Coloque o caminho da sua foto aqui -->
+                <img src="Imagens/foto-portfolio.jpeg" alt="Wellington Paiva" class="foto-perfil">
+                <div class="foto-overlay">
+                    </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sobre Section -->
+    <section id="sobre" class="sobre">
+        <div class="container">
+            <h2 class="section-title">Sobre <span>Mim</span></h2>
+            <p class="section-subtitle">Quem Sou Eu</p>
+            
+            <div class="sobre-content">
+                <div class="sobre-texto">
+                    <p class="sobre-paragrafo">
+                       Meu nome é Wellington Paiva e sou estudante de Análise e Desenvolvimento de Sistemas (ADS), com grande interesse pela área de tecnologia. Meu interesse por programação surgiu após minha experiência profissional na área de Facilities, onde tive mais contato com o ambiente corporativo e comecei a me interessar pelo mundo da TI.
+                    </p>
+                    <p class="sobre-paragrafo">
+                        Atualmente estou focado em desenvolvimento web, estudando e desenvolvendo projetos para aprimorar minhas habilidades em tecnologias como HTML, CSS, JavaScript, React, Node.js, Python, SQL e Git.
+                    </p>
+                    <p class="sobre-paragrafo">
+                        Sou uma pessoa dedicada ao aprendizado contínuo e estou em constante evolução para me tornar um desenvolvedor Full Stack, buscando sempre aprender novas tecnologias e aplicar meus conhecimentos em projetos práticos.
+                    </p>
+                </div>
+                
+                <div class="habilidades-container">
+                    <h3>Tecnologias que Utilizo</h3>
+                    <div class="habilidades-grid">
+                        <div class="habilidade-item">
+                            <i class="fab fa-html5"></i>
+                            <span>HTML5</span>
+                        </div>
+                        <div class="habilidade-item">
+                            <i class="fab fa-css3-alt"></i>
+                            <span>CSS3</span>
+                        </div>
+                        <div class="habilidade-item">
+                            <i class="fab fa-js"></i>
+                            <span>JavaScript</span>
+                        </div>
+                        <div class="habilidade-item">
+                            <i class="fab fa-git-alt"></i>
+                            <span>Git</span>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Serviços Section - What Can I Do -->
+    <section id="servicos" class="servicos">
+        <div class="container">
+            <h2 class="section-title">O Que Eu <span>Faço</span></h2>
+            
+            <div class="servicos-grid">
+                <!-- Designer Criativo -->
+                <div class="servico-card">
+                    <div class="servico-icon">
+                        <i class="fas fa-code"></i>
+                    </div>
+                    <h3>Desenvolvedor Web</h3>
+                    <p>Construção de sites modernos e responsivos utilizando HTML, CSS e JavaScript.</p>
+                </div>
+                
+                <!-- Desenvolvedor Web -->
+                <div class="servico-card">
+                    <div class="servico-icon">
+                        <i class="fa-solid fa-laptop-code"></i>
+                    </div>
+                    <h3>Interfaces Responsivas</h3>
+                    <p>Criação de layouts que funcionam bem em computadores, tablets e celulares.</p>
+                </div>
+                
+                <!-- Cientista de Dados -->
+                <div class="servico-card">
+                    <div class="servico-icon">
+                        <i class="fas fa-book"></i>
+                    </div>
+                    <h3>Aprendizado Contínuo</h3>
+                    <p>Sempre estudando novas tecnologias da área.</p>
+                </div>
+                
+                <!-- Desenvolvedor Full Stack -->
+                <div class="servico-card">
+                    <div class="servico-icon">
+                        <i class="fas fa-layer-group"></i>
+                    </div>
+                    <h3>Versionamento com Git</h3>
+                    <p>Projetando e desenvolvendo soluções web completas.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projetos Section -->
+    <section id="projetos" class="projetos">
+        <div class="container">
+            <h2 class="section-title">Meus <span>Projetos</span></h2>
+            
+            <div class="projetos-grid">
+                <!-- Projeto 1 -->
+                <div class="projeto-card">
+                    <div class="projeto-image">
+                        <i class="fas fa-store"></i>
+                    </div>
+                    <div class="projeto-info">
+                        <h3>Agencia de noticia</h3>
+                        <p>Projeto desenvolvido como atividade acadêmica no curso de Desenvolvimento de Sistemas. O trabalho consistiu na personalização de um template de agência de notícias utilizando HTML e CSS, definindo identidade visual, cores, tipografia e organização das notícias em formato de cards. A atividade teve como objetivo praticar a estruturação de páginas web e a criação de layouts responsivos.</p>
+                        <div class="projeto-tags">
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>JavaScript</span>
+                        </div>
+                        <div class="projeto-links">
+                            <a href="https://github.com/wellington-vinicius" class="projeto-link"><i class="fab fa-github"></i></a>
+                            <a href="https://wellington-vinicius.github.io/age3/" class="projeto-link"><i class="fas fa-external-link-alt"></i></a>
+                        </div>
+                    </div>
+                </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contato Section -->
+    <section id="contato" class="contato">
+        <div class="container">
+            <h2 class="section-title">Vamos trabalhar juntos <span>no seu próximo projeto</span></h2>
+            
+            <div class="contato-content">
+                <div class="contato-info">
+                    <div class="contato-item">
+                        <i class="fas fa-envelope"></i>
+                        <div>
+                            <h3>Email</h3>
+                            <p>wellingtoncoelhopaiva@gmail.com </p>
+                        </div>
+                    </div>
+                    <div class="contato-item">
+                        <i class="fas fa-phone"></i>
+                        <div>
+                            <h3>Telefone</h3>
+                            <p>(32) 99126-2541</p>
+                        </div>
+                    </div>
+                    <div class="contato-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div>
+                            <h3>Localização</h3>
+                            <p>Minas Gerais, MG</p>
+                        </div>
+                    </div>
+                    
+                    <div class="redes-sociais">
+                        <a href="https://github.com/wellington-vinicius" target="_blank"><i class="fab fa-github"></i></a>
+                        <a href="https://www.linkedin.com/in/wellington-paiva-b34375304" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="https://wa.me/55329912625541" target="_blank"><i class="fab fa-whatsapp"></i></a>
+                    </div>
+                </div>
+                
+                <form id="contato-form" class="contato-form"
+action="https://formspree.io/f/xnjggezq"
+method="POST">
+
+<input type="text" name="nome" placeholder="Seu Nome" required>
+
+<input type="email" name="email" placeholder="Seu Email" required>
+
+<input type="text" name="assunto" placeholder="Assunto">
+
+<textarea name="mensagem" rows="5" placeholder="Sua Mensagem" required></textarea>
+
+<button type="submit" class="btn primary">Enviar Mensagem</button>
+
+</form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2026 Wellington Paiva. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+    <script>
+const form = document.getElementById("contato-form");
+
+form.addEventListener("submit", function(event){
+event.preventDefault();
+
+const data = new FormData(form);
+
+fetch(form.action,{
+method:"POST",
+body:data,
+headers:{
+'Accept':'application/json'
+}
+}).then(response=>{
+if(response.ok){
+alert("✅ Mensagem enviada com sucesso!");
+form.reset();
+}else{
+alert("❌ Erro ao enviar mensagem.");
+}
+}).catch(()=>{
+alert("⚠️ Problema de conexão.");
+});
+
+});
+</script>
+</body>
+</html>
