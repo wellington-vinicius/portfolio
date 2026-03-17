@@ -1,5 +1,7 @@
 # 💻 Portfólio - Wellington Vinicius
 
+![Minha Foto](Imagens/wellington.jpeg)
+
 Bem-vindo ao meu portfólio de desenvolvedor web! 🚀
 
 ---
